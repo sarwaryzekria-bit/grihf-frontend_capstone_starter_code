@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Zekria Sarwary">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="Sign_Up.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1>Sign Up</h1>
+                <p>Already a member?<a href="../Login/Login.html"> Login</a></p>
+            </div>
+            <form>
+                <label for="role">Role</label>
+                <br/>
+                <select id="role" required><option>None</option><option>Doctor</option><option>Patient</option></select>
+                <br/>
+                <label for="name">Name</label>
+                <br/>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <br/>
+                <label for="phone">Phone</label>
+                <br/>
+                <input type="text" id="phone" placeholder="Enter your phone number" required>
+                <br>
+                <label for="email">Email</label>
+                <br/>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <br/>
+                <label for="password">Password</label>
+                <br/>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <br>
+                <div class="btns">
+                    <button class="btn btn-outline-primary">Submit</button>
+                    <button class="btn btn-outline-danger">Reset</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

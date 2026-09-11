@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    justify-items: center;
+    text-align: center;
+    padding-top: 3%;
+}
+a {
+    text-decoration: none;
+}
+label {
+    margin-top: 4%;
+    font-weight: bold;
+}
+input {
+    width: 300px;
+    padding: 1%;
+    margin-top: 2%;
+}
+form {
+    text-align: left;
+}
+.btns {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
