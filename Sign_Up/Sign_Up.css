@@ -17,14 +17,26 @@ label {
     margin-top: 4%;
     font-weight: bold;
 }
-input {
+.input {
     width: 300px;
     margin-top: 2%;
     padding: 1%;
 }
-button {
-    padding: 2%;
+.btn-1 {
+    padding: 3%;
     margin-top: 4%;
+    background-color: #5C5CD7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn-2 {
+    padding: 3%;
+    margin-top: 4%;
+    background-color: #C84A4C;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
 #role {
     margin-top: 2%;

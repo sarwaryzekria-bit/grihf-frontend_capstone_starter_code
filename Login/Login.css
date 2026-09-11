@@ -14,7 +14,7 @@ label {
     margin-top: 4%;
     font-weight: bold;
 }
-input {
+.input {
     width: 300px;
     padding: 1%;
     margin-top: 2%;
@@ -22,8 +22,26 @@ input {
 form {
     text-align: left;
 }
+.btn-1 {
+    padding: 10%;
+    margin-top: 4%;
+    background-color: #5C5CD7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn-2 {
+    padding: 10%;
+    margin-top: 4%;
+    background-color: #C84A4C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
 .btns {
-    text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
